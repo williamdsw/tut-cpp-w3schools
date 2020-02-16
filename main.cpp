@@ -20,6 +20,7 @@
 #include "tutorial/for.h"
 #include "tutorial/foreach.h"
 #include "tutorial/arrays.h"
+#include "tutorial/reference.h"
 
 using namespace std;
 
@@ -83,8 +84,11 @@ int main()
 	forObj.makeFor ();
 
 	Foreach foreachObj;
-	foreachObj.makeForeach ();*/
+	foreachObj.makeForeach ();
 
 	Arrays arrays;
-	arrays.makeArrays ();
+	arrays.makeArrays ();*/
+
+	Reference reference;
+	reference.makeReference ();
 }
