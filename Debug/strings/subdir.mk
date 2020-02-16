@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../strings/access.cpp \
 ../strings/concatenation.cpp \
 ../strings/length.cpp 
 
 OBJS += \
+./strings/access.o \
 ./strings/concatenation.o \
 ./strings/length.o 
 
 CPP_DEPS += \
+./strings/access.d \
 ./strings/concatenation.d \
 ./strings/length.d 
 

@@ -10,6 +10,7 @@
 #include "tutorial/operators-logical.h"
 #include "strings/concatenation.h"
 #include "strings/length.h"
+#include "strings/access.h"
 
 using namespace std;
 
@@ -43,8 +44,11 @@ int main()
 	operatorsLogical.makeOperatorsLogical ();
 
 	Concatenation concatenation;
-	concatenation.makeConcatenation ();*/
+	concatenation.makeConcatenation ();
 
 	Length length;
-	length.makeLength ();
+	length.makeLength ();*/
+
+	Access access;
+	access.makeAccess ();
 }
