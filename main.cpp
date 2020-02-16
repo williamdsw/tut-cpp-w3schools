@@ -9,6 +9,7 @@
 #include "tutorial/operators-comparison.h"
 #include "tutorial/operators-logical.h"
 #include "strings/concatenation.h"
+#include "strings/length.h"
 
 using namespace std;
 
@@ -39,8 +40,11 @@ int main()
 	operatorsComparison.makeOperatorsComparison ();
 
 	OperatorsLogical operatorsLogical;
-	operatorsLogical.makeOperatorsLogical ();*/
+	operatorsLogical.makeOperatorsLogical ();
 
 	Concatenation concatenation;
-	concatenation.makeConcatenation ();
+	concatenation.makeConcatenation ();*/
+
+	Length length;
+	length.makeLength ();
 }

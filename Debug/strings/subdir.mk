@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../strings/concatenation.cpp 
+../strings/concatenation.cpp \
+../strings/length.cpp 
 
 OBJS += \
-./strings/concatenation.o 
+./strings/concatenation.o \
+./strings/length.o 
 
 CPP_DEPS += \
-./strings/concatenation.d 
+./strings/concatenation.d \
+./strings/length.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
