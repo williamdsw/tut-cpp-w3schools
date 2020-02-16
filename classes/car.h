@@ -7,21 +7,32 @@ using namespace std;
 
 class Car
 {
-	public:
+	private:
 
 		// FIELDS
 
 		string brand;
 		string model;
 		int year;
+		int maxSpeed;
+
+	public:
 
 		// CONSTRUCTOR
 
-		Car (string brand, string model, int year);
+		Car (string brand, string model, int year, int maxSpeed);
 
-		// HELPER FUNCTIONS
+		// GETTERS / SETTERS
 
-		int speed (int maxSpeed);
+		void setBrand (string brand);
+		void setModel (string model);
+		void setYear (int year);
+		void setMaxSpeed (int maxSpeed);
+
+		string getBrand ();
+		string getModel ();
+		int getYear ();
+		int getMaxSpeed ();
 };
 
 #endif
