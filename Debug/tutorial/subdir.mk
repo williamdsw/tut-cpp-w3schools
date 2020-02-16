@@ -8,6 +8,7 @@ CPP_SRCS += \
 ../tutorial/comments.cpp \
 ../tutorial/constants.cpp \
 ../tutorial/do-while.cpp \
+../tutorial/example-files.cpp \
 ../tutorial/example-math.cpp \
 ../tutorial/for.cpp \
 ../tutorial/foreach.cpp \
@@ -29,6 +30,7 @@ OBJS += \
 ./tutorial/comments.o \
 ./tutorial/constants.o \
 ./tutorial/do-while.o \
+./tutorial/example-files.o \
 ./tutorial/example-math.o \
 ./tutorial/for.o \
 ./tutorial/foreach.o \
@@ -50,6 +52,7 @@ CPP_DEPS += \
 ./tutorial/comments.d \
 ./tutorial/constants.d \
 ./tutorial/do-while.d \
+./tutorial/example-files.d \
 ./tutorial/example-math.d \
 ./tutorial/for.d \
 ./tutorial/foreach.d \

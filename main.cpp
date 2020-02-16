@@ -27,6 +27,7 @@
 #include "functions/example-overloading.h"
 #include "classes/car.h"
 #include "classes/programmer.h"
+#include "tutorial/example-files.h"
 
 using namespace std;
 
@@ -150,7 +151,7 @@ int main()
 	cout << "Brand: " << car.getBrand () << endl;
 	cout << "Model: " << car.getModel () << endl;
 	cout << "Year: " << car.getYear () << endl;
-	cout << "Max Speed: " << car.getMaxSpeed () << endl;*/
+	cout << "Max Speed: " << car.getMaxSpeed () << endl;
 
 	Programmer programmer (0, 0);
 	programmer.setSalary (50000);
@@ -158,5 +159,9 @@ int main()
 
 	cout << "Programmer properties: " << endl;
 	cout << "Salary: " << programmer.getSalary () << endl;
-	cout << "Bonus: " << programmer.getBonus () << endl;
+	cout << "Bonus: " << programmer.getBonus () << endl;*/
+
+	ExampleFiles exampleFiles;
+	exampleFiles.createFile ("test.txt", "Freedom '90");
+	exampleFiles.readFile ("test.txt");
 }
