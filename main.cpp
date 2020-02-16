@@ -148,4 +148,5 @@ int main()
 	cout << "Brand: " << car.brand << endl;
 	cout << "Model: " << car.model << endl;
 	cout << "Year: " << car.year << endl;
+	cout << "Max Speed: " << car.speed (200) << endl;
 }

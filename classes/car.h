@@ -11,6 +11,8 @@ class Car
 		string brand;
 		string model;
 		int year;
+
+		int speed (int maxSpeed);
 };
 
 #endif
