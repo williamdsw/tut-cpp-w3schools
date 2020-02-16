@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../tutorial/comments.cpp \
 ../tutorial/hello-world.cpp \
 ../tutorial/output.cpp 
 
 OBJS += \
+./tutorial/comments.o \
 ./tutorial/hello-world.o \
 ./tutorial/output.o 
 
 CPP_DEPS += \
+./tutorial/comments.d \
 ./tutorial/hello-world.d \
 ./tutorial/output.d 
 
