@@ -5,14 +5,17 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../functions/example-function.cpp \
+../functions/example-overloading.cpp \
 ../functions/example-parameters.cpp 
 
 OBJS += \
 ./functions/example-function.o \
+./functions/example-overloading.o \
 ./functions/example-parameters.o 
 
 CPP_DEPS += \
 ./functions/example-function.d \
+./functions/example-overloading.d \
 ./functions/example-parameters.d 
 
 

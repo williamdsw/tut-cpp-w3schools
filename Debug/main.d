@@ -7,7 +7,8 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
  ../tutorial/if-else.h ../tutorial/switch.h ../tutorial/while.h \
  ../tutorial/do-while.h ../tutorial/for.h ../tutorial/foreach.h \
  ../tutorial/arrays.h ../tutorial/reference.h ../tutorial/pointers.h \
- ../functions/example-function.h ../functions/example-parameters.h
+ ../functions/example-function.h ../functions/example-parameters.h \
+ ../functions/example-overloading.h
 
 ../tutorial/hello-world.h:
 
@@ -58,3 +59,5 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
 ../functions/example-function.h:
 
 ../functions/example-parameters.h:
+
+../functions/example-overloading.h:

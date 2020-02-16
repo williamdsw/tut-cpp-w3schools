@@ -24,6 +24,7 @@
 #include "tutorial/pointers.h"
 #include "functions/example-function.h"
 #include "functions/example-parameters.h"
+#include "functions/example-overloading.h"
 
 using namespace std;
 
@@ -101,7 +102,7 @@ int main()
 	ExampleFunctions exampleFunctions;
 	exampleFunctions.myFunction ();
 	exampleFunctions.myFunction ();
-	exampleFunctions.myFunction ();*/
+	exampleFunctions.myFunction ();
 
 	ExampleParameters exampleParameters;
 	exampleParameters.printName ("Dimebag");
@@ -126,6 +127,14 @@ int main()
 	exampleParameters.swap (a, b);
 
 	cout << "Numbers after swap: " << endl;
-	cout << a << ", " << b << endl;
+	cout << a << ", " << b << endl;*/
 
+	ExampleOverloading exampleOverloading;
+	int integerSum = exampleOverloading.sum (10, 15);
+	float floatSum  = exampleOverloading.sum (2.5, 10.99);
+	double doubleSum = exampleOverloading.sum (99.1, 120.45);
+
+	cout << "10 + 15 = " << integerSum << endl;
+	cout << "2.5 + 10.99 = " << floatSum << endl;
+	cout << "99.1 + 120.45 = " << doubleSum << endl;
 }
