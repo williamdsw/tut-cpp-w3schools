@@ -1,8 +1,9 @@
+#include "comments.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void Comments::makeComments ()
 {
 	// Single line comment
 	cout << "Single line comment above." << endl;
@@ -10,6 +11,4 @@ int main()
 	/* Multi-line
 	 * Comment */
 	cout << "Multi-line comment above." << endl;
-
-	return 0;
 }

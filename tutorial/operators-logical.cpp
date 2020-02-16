@@ -1,8 +1,9 @@
+#include "operators-logical.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void OperatorsLogical::makeOperatorsLogical ()
 {
 	// FIELDS
 
@@ -19,6 +20,4 @@ int main()
 	cout << "x < y && x < z ? " << (x < y && x < z) << endl;
 	cout << "x == y || x <= z ? " << (x == y || x <= z) << endl;
 	cout << "!(x < y && x < z) ? " << !(x < y && x < z) << endl;
-
-	return 0;
 }

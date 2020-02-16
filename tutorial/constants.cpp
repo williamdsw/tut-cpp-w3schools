@@ -1,8 +1,9 @@
+#include "constants.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void Constants::makeConstants ()
 {
 	// FIELDS
 
@@ -13,6 +14,4 @@ int main()
 
 	cout << "MINUTES_PER_HOUR: " << MINUTES_PER_HOUR << endl;
 	cout << "PI: " << PI << endl;
-
-	return 0;
 }

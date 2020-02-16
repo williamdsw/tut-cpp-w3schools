@@ -1,9 +1,9 @@
+#include "hello-world.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void HelloWorld::makeHelloWorld ()
 {
 	cout << "Hello World";
-	return 0;
 }

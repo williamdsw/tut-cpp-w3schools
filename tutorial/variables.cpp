@@ -1,8 +1,9 @@
+#include "variables.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void Variables::makeVariables ()
 {
 	// FIELDS
 
@@ -19,6 +20,4 @@ int main()
 	cout << "myChar: " << myChar << endl;
 	cout << "myString: " << myString << endl;
 	cout << "myBoolean: " << myBoolean << endl;
-
-	return 0;
 }

@@ -1,8 +1,9 @@
+#include "operators-arithmetic.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void OperatorsArithmetic::makeOperatorsArithmetic ()
 {
 	// FIELDS
 
@@ -30,6 +31,4 @@ int main()
 	cout << "x % y = " << modulus << endl;
 	cout << "x++ = " << increment << endl;
 	cout << "--x = " << decrement << endl;
-
-	return 0;
 }

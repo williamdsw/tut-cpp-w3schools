@@ -1,8 +1,9 @@
+#include "user-input.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void UserInput::makeUserInput ()
 {
 	// FIELDS
 
@@ -20,6 +21,4 @@ int main()
 
 	sum = x + y;
 	cout << "Sum is: " << sum;
-
-	return 0;
 }

@@ -1,8 +1,9 @@
+#include "operators-comparison.h"
 #include <iostream>
 
 using namespace std;
 
-int main()
+void OperatorsComparison::makeOperatorsComparison ()
 {
 	// FIELDS
 
@@ -20,6 +21,6 @@ int main()
 	cout << "x < y ? " << (x < y) << endl;
 	cout << "x >= y ? " << (x >= y) << endl;
 	cout << "x <= y ? " << (x <= y) << endl;
-
-	return 0;
 }
+
+
