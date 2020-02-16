@@ -6,6 +6,7 @@
 CPP_SRCS += \
 ../tutorial/comments.cpp \
 ../tutorial/constants.cpp \
+../tutorial/do-while.cpp \
 ../tutorial/example-math.cpp \
 ../tutorial/hello-world.cpp \
 ../tutorial/if-else.cpp \
@@ -15,11 +16,13 @@ CPP_SRCS += \
 ../tutorial/output.cpp \
 ../tutorial/switch.cpp \
 ../tutorial/user-input.cpp \
-../tutorial/variables.cpp 
+../tutorial/variables.cpp \
+../tutorial/while.cpp 
 
 OBJS += \
 ./tutorial/comments.o \
 ./tutorial/constants.o \
+./tutorial/do-while.o \
 ./tutorial/example-math.o \
 ./tutorial/hello-world.o \
 ./tutorial/if-else.o \
@@ -29,11 +32,13 @@ OBJS += \
 ./tutorial/output.o \
 ./tutorial/switch.o \
 ./tutorial/user-input.o \
-./tutorial/variables.o 
+./tutorial/variables.o \
+./tutorial/while.o 
 
 CPP_DEPS += \
 ./tutorial/comments.d \
 ./tutorial/constants.d \
+./tutorial/do-while.d \
 ./tutorial/example-math.d \
 ./tutorial/hello-world.d \
 ./tutorial/if-else.d \
@@ -43,7 +48,8 @@ CPP_DEPS += \
 ./tutorial/output.d \
 ./tutorial/switch.d \
 ./tutorial/user-input.d \
-./tutorial/variables.d 
+./tutorial/variables.d \
+./tutorial/while.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

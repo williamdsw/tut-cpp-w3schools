@@ -15,6 +15,8 @@
 #include "tutorial/example-math.h"
 #include "tutorial/if-else.h"
 #include "tutorial/switch.h"
+#include "tutorial/while.h"
+#include "tutorial/do-while.h"
 
 using namespace std;
 
@@ -63,8 +65,14 @@ int main()
 	exampleMath.makeExamplePath ();
 
 	IfElse ifElse;
-	ifElse.makeIfElse ();*/
+	ifElse.makeIfElse ();
 
 	Switch switchObj;
-	switchObj.makeSwitch ();
+	switchObj.makeSwitch ();*/
+
+	While whileObj;
+	whileObj.makeWhile ();
+
+	DoWhile doWhile;
+	doWhile.makeDoWhile ();
 }
