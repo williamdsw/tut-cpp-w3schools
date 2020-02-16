@@ -6,17 +6,20 @@
 CPP_SRCS += \
 ../tutorial/comments.cpp \
 ../tutorial/hello-world.cpp \
-../tutorial/output.cpp 
+../tutorial/output.cpp \
+../tutorial/variables.cpp 
 
 OBJS += \
 ./tutorial/comments.o \
 ./tutorial/hello-world.o \
-./tutorial/output.o 
+./tutorial/output.o \
+./tutorial/variables.o 
 
 CPP_DEPS += \
 ./tutorial/comments.d \
 ./tutorial/hello-world.d \
-./tutorial/output.d 
+./tutorial/output.d \
+./tutorial/variables.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
