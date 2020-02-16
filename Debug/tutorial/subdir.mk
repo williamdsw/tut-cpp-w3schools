@@ -8,6 +8,7 @@ CPP_SRCS += \
 ../tutorial/constants.cpp \
 ../tutorial/hello-world.cpp \
 ../tutorial/output.cpp \
+../tutorial/user-input.cpp \
 ../tutorial/variables.cpp 
 
 OBJS += \
@@ -15,6 +16,7 @@ OBJS += \
 ./tutorial/constants.o \
 ./tutorial/hello-world.o \
 ./tutorial/output.o \
+./tutorial/user-input.o \
 ./tutorial/variables.o 
 
 CPP_DEPS += \
@@ -22,6 +24,7 @@ CPP_DEPS += \
 ./tutorial/constants.d \
 ./tutorial/hello-world.d \
 ./tutorial/output.d \
+./tutorial/user-input.d \
 ./tutorial/variables.d 
 
 
