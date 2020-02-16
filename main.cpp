@@ -23,6 +23,7 @@
 #include "tutorial/reference.h"
 #include "tutorial/pointers.h"
 #include "functions/example-function.h"
+#include "functions/example-parameters.h"
 
 using namespace std;
 
@@ -95,11 +96,36 @@ int main()
 	reference.makeReference ();
 
 	Pointers pointers;
-	pointers.makePointers ();*/
+	pointers.makePointers ();
 
 	ExampleFunctions exampleFunctions;
 	exampleFunctions.myFunction ();
 	exampleFunctions.myFunction ();
-	exampleFunctions.myFunction ();
+	exampleFunctions.myFunction ();*/
+
+	ExampleParameters exampleParameters;
+	exampleParameters.printName ("Dimebag");
+	exampleParameters.printName ("Phil");
+
+	exampleParameters.printCountryName ();
+	exampleParameters.printCountryName ("USA");
+	exampleParameters.printCountryName ("Argentina");
+
+	exampleParameters.printPersonInfo ("Axl", 27);
+	exampleParameters.printPersonInfo ("Slash", 24);
+
+	int sum = exampleParameters.sum (10, 19);
+	cout << "10 + 19 = " << sum << endl;
+
+	int a = 10;
+	int b = 100;
+
+	cout << "Numbers before swap: " << endl;
+	cout << a << ", " << b << endl;
+
+	exampleParameters.swap (a, b);
+
+	cout << "Numbers after swap: " << endl;
+	cout << a << ", " << b << endl;
 
 }

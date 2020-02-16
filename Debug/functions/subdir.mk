@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../functions/example-function.cpp 
+../functions/example-function.cpp \
+../functions/example-parameters.cpp 
 
 OBJS += \
-./functions/example-function.o 
+./functions/example-function.o \
+./functions/example-parameters.o 
 
 CPP_DEPS += \
-./functions/example-function.d 
+./functions/example-function.d \
+./functions/example-parameters.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
