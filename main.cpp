@@ -139,10 +139,7 @@ int main()
 	cout << "2.5 + 10.99 = " << floatSum << endl;
 	cout << "99.1 + 120.45 = " << doubleSum << endl;*/
 
-	Car car;
-	car.brand = "BMW";
-	car.model = "X5";
-	car.year = 1999;
+	Car car ("BMW", "X5", 1999);
 
 	cout << "Car properties: " << endl;
 	cout << "Brand: " << car.brand << endl;
