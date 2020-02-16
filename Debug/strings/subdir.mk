@@ -6,17 +6,20 @@
 CPP_SRCS += \
 ../strings/access.cpp \
 ../strings/concatenation.cpp \
-../strings/length.cpp 
+../strings/length.cpp \
+../strings/struserinput.cpp 
 
 OBJS += \
 ./strings/access.o \
 ./strings/concatenation.o \
-./strings/length.o 
+./strings/length.o \
+./strings/struserinput.o 
 
 CPP_DEPS += \
 ./strings/access.d \
 ./strings/concatenation.d \
-./strings/length.d 
+./strings/length.d \
+./strings/struserinput.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

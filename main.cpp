@@ -11,6 +11,7 @@
 #include "strings/concatenation.h"
 #include "strings/length.h"
 #include "strings/access.h"
+#include "strings/struserinput.h"
 
 using namespace std;
 
@@ -47,8 +48,11 @@ int main()
 	concatenation.makeConcatenation ();
 
 	Length length;
-	length.makeLength ();*/
+	length.makeLength ();
 
 	Access access;
-	access.makeAccess ();
+	access.makeAccess ();*/
+
+	StrUserInput strUserInput;
+	strUserInput.makeStrUserInput ();
 }
