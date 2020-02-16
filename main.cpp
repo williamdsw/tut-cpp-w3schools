@@ -22,6 +22,7 @@
 #include "tutorial/arrays.h"
 #include "tutorial/reference.h"
 #include "tutorial/pointers.h"
+#include "functions/example-function.h"
 
 using namespace std;
 
@@ -91,8 +92,14 @@ int main()
 	arrays.makeArrays ();
 
 	Reference reference;
-	reference.makeReference ();*/
+	reference.makeReference ();
 
 	Pointers pointers;
-	pointers.makePointers ();
+	pointers.makePointers ();*/
+
+	ExampleFunctions exampleFunctions;
+	exampleFunctions.myFunction ();
+	exampleFunctions.myFunction ();
+	exampleFunctions.myFunction ();
+
 }

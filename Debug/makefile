@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include tutorial/subdir.mk
 -include strings/subdir.mk
+-include functions/subdir.mk
 -include subdir.mk
 -include objects.mk
 

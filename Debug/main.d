@@ -6,7 +6,8 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
  ../strings/struserinput.h ../tutorial/example-math.h \
  ../tutorial/if-else.h ../tutorial/switch.h ../tutorial/while.h \
  ../tutorial/do-while.h ../tutorial/for.h ../tutorial/foreach.h \
- ../tutorial/arrays.h ../tutorial/reference.h ../tutorial/pointers.h
+ ../tutorial/arrays.h ../tutorial/reference.h ../tutorial/pointers.h \
+ ../functions/example-function.h
 
 ../tutorial/hello-world.h:
 
@@ -53,3 +54,5 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
 ../tutorial/reference.h:
 
 ../tutorial/pointers.h:
+
+../functions/example-function.h:
