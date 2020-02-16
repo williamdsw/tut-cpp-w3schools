@@ -6,6 +6,7 @@
 CPP_SRCS += \
 ../tutorial/comments.cpp \
 ../tutorial/constants.cpp \
+../tutorial/example-math.cpp \
 ../tutorial/hello-world.cpp \
 ../tutorial/operators-arithmetic.cpp \
 ../tutorial/operators-comparison.cpp \
@@ -17,6 +18,7 @@ CPP_SRCS += \
 OBJS += \
 ./tutorial/comments.o \
 ./tutorial/constants.o \
+./tutorial/example-math.o \
 ./tutorial/hello-world.o \
 ./tutorial/operators-arithmetic.o \
 ./tutorial/operators-comparison.o \
@@ -28,6 +30,7 @@ OBJS += \
 CPP_DEPS += \
 ./tutorial/comments.d \
 ./tutorial/constants.d \
+./tutorial/example-math.d \
 ./tutorial/hello-world.d \
 ./tutorial/operators-arithmetic.d \
 ./tutorial/operators-comparison.d \

@@ -12,6 +12,7 @@
 #include "strings/length.h"
 #include "strings/access.h"
 #include "strings/struserinput.h"
+#include "tutorial/example-math.h"
 
 using namespace std;
 
@@ -51,8 +52,11 @@ int main()
 	length.makeLength ();
 
 	Access access;
-	access.makeAccess ();*/
+	access.makeAccess ();
 
 	StrUserInput strUserInput;
-	strUserInput.makeStrUserInput ();
+	strUserInput.makeStrUserInput ();*/
+
+	ExampleMath exampleMath;
+	exampleMath.makeExamplePath ();
 }
