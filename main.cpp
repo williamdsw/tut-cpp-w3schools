@@ -8,12 +8,13 @@
 #include "tutorial/operators-arithmetic.h"
 #include "tutorial/operators-comparison.h"
 #include "tutorial/operators-logical.h"
+#include "strings/concatenation.h"
 
 using namespace std;
 
 int main()
 {
-	HelloWorld helloWorld;
+	/*HelloWorld helloWorld;
 	helloWorld.makeHelloWorld ();
 
 	Output output;
@@ -38,5 +39,8 @@ int main()
 	operatorsComparison.makeOperatorsComparison ();
 
 	OperatorsLogical operatorsLogical;
-	operatorsLogical.makeOperatorsLogical ();
+	operatorsLogical.makeOperatorsLogical ();*/
+
+	Concatenation concatenation;
+	concatenation.makeConcatenation ();
 }
