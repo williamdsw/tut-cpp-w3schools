@@ -1,34 +1,44 @@
 #include "example-files.h"
 #include <fstream>
+#include <exception>
 
 // HELPER FUNCTIONS
 
 void ExampleFiles::createFile (string fileName, string content)
 {
-	if (fileName == "" || content == "")
+	try
 	{
-		return;
-	}
+		if (fileName == "" || content == "")
+		{
+			throw "File name or content cannot be null or empty!"s;
+		}
 
-	ofstream myFile (fileName);
-	myFile << content;
-	myFile.close ();
+		ofstream myFile (fileName);
+		myFile << content;
+		myFile.close ();
+	}
+	catch (string message)
+	{
+		cout << message << endl;
+	}
 }
 
 void ExampleFiles::readFile (string fileName)
 {
-	if (fileName == "")
+	try
 	{
-		return;
+		string output = "";
+		ifstream myFile (fileName);
+
+		while (getline (myFile, output))
+		{
+			cout << output;
+		}
+
+		myFile.close ();
 	}
-
-	string output = "";
-	ifstream myFile (fileName);
-
-	while (getline (myFile, output))
+	catch (const exception& e)
 	{
-		cout << output;
+		cout << e.what () << endl;
 	}
-
-	myFile.close ();
 }

@@ -159,9 +159,13 @@ int main()
 
 	cout << "Programmer properties: " << endl;
 	cout << "Salary: " << programmer.getSalary () << endl;
-	cout << "Bonus: " << programmer.getBonus () << endl;*/
+	cout << "Bonus: " << programmer.getBonus () << endl;
 
 	ExampleFiles exampleFiles;
 	exampleFiles.createFile ("test.txt", "Freedom '90");
-	exampleFiles.readFile ("test.txt");
+	exampleFiles.readFile ("test.txt");*/
+
+	ExampleFiles exampleFiles;
+	exampleFiles.createFile ("", "");
+	exampleFiles.readFile ("null.txt");
 }
