@@ -13,6 +13,7 @@
 #include "strings/access.h"
 #include "strings/struserinput.h"
 #include "tutorial/example-math.h"
+#include "tutorial/if-else.h"
 
 using namespace std;
 
@@ -55,8 +56,11 @@ int main()
 	access.makeAccess ();
 
 	StrUserInput strUserInput;
-	strUserInput.makeStrUserInput ();*/
+	strUserInput.makeStrUserInput ();
 
 	ExampleMath exampleMath;
-	exampleMath.makeExamplePath ();
+	exampleMath.makeExamplePath ();*/
+
+	IfElse ifElse;
+	ifElse.makeIfElse ();
 }

@@ -8,6 +8,7 @@ CPP_SRCS += \
 ../tutorial/constants.cpp \
 ../tutorial/example-math.cpp \
 ../tutorial/hello-world.cpp \
+../tutorial/if-else.cpp \
 ../tutorial/operators-arithmetic.cpp \
 ../tutorial/operators-comparison.cpp \
 ../tutorial/operators-logical.cpp \
@@ -20,6 +21,7 @@ OBJS += \
 ./tutorial/constants.o \
 ./tutorial/example-math.o \
 ./tutorial/hello-world.o \
+./tutorial/if-else.o \
 ./tutorial/operators-arithmetic.o \
 ./tutorial/operators-comparison.o \
 ./tutorial/operators-logical.o \
@@ -32,6 +34,7 @@ CPP_DEPS += \
 ./tutorial/constants.d \
 ./tutorial/example-math.d \
 ./tutorial/hello-world.d \
+./tutorial/if-else.d \
 ./tutorial/operators-arithmetic.d \
 ./tutorial/operators-comparison.d \
 ./tutorial/operators-logical.d \
