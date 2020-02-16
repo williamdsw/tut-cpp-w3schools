@@ -14,6 +14,7 @@
 #include "strings/struserinput.h"
 #include "tutorial/example-math.h"
 #include "tutorial/if-else.h"
+#include "tutorial/switch.h"
 
 using namespace std;
 
@@ -59,8 +60,11 @@ int main()
 	strUserInput.makeStrUserInput ();
 
 	ExampleMath exampleMath;
-	exampleMath.makeExamplePath ();*/
+	exampleMath.makeExamplePath ();
 
 	IfElse ifElse;
-	ifElse.makeIfElse ();
+	ifElse.makeIfElse ();*/
+
+	Switch switchObj;
+	switchObj.makeSwitch ();
 }

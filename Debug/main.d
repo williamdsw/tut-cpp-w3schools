@@ -4,7 +4,7 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
  ../tutorial/operators-comparison.h ../tutorial/operators-logical.h \
  ../strings/concatenation.h ../strings/length.h ../strings/access.h \
  ../strings/struserinput.h ../tutorial/example-math.h \
- ../tutorial/if-else.h
+ ../tutorial/if-else.h ../tutorial/switch.h
 
 ../tutorial/hello-world.h:
 
@@ -35,3 +35,5 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
 ../tutorial/example-math.h:
 
 ../tutorial/if-else.h:
+
+../tutorial/switch.h:

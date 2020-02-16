@@ -13,6 +13,7 @@ CPP_SRCS += \
 ../tutorial/operators-comparison.cpp \
 ../tutorial/operators-logical.cpp \
 ../tutorial/output.cpp \
+../tutorial/switch.cpp \
 ../tutorial/user-input.cpp \
 ../tutorial/variables.cpp 
 
@@ -26,6 +27,7 @@ OBJS += \
 ./tutorial/operators-comparison.o \
 ./tutorial/operators-logical.o \
 ./tutorial/output.o \
+./tutorial/switch.o \
 ./tutorial/user-input.o \
 ./tutorial/variables.o 
 
@@ -39,6 +41,7 @@ CPP_DEPS += \
 ./tutorial/operators-comparison.d \
 ./tutorial/operators-logical.d \
 ./tutorial/output.d \
+./tutorial/switch.d \
 ./tutorial/user-input.d \
 ./tutorial/variables.d 
 
