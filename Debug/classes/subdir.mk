@@ -4,13 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../classes/car.cpp 
+../classes/car.cpp \
+../classes/employee.cpp \
+../classes/programmer.cpp 
 
 OBJS += \
-./classes/car.o 
+./classes/car.o \
+./classes/employee.o \
+./classes/programmer.o 
 
 CPP_DEPS += \
-./classes/car.d 
+./classes/car.d \
+./classes/employee.d \
+./classes/programmer.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -26,6 +26,7 @@
 #include "functions/example-parameters.h"
 #include "functions/example-overloading.h"
 #include "classes/car.h"
+#include "classes/programmer.h"
 
 using namespace std;
 
@@ -137,7 +138,7 @@ int main()
 
 	cout << "10 + 15 = " << integerSum << endl;
 	cout << "2.5 + 10.99 = " << floatSum << endl;
-	cout << "99.1 + 120.45 = " << doubleSum << endl;*/
+	cout << "99.1 + 120.45 = " << doubleSum << endl;
 
 	Car car ("", "", 0, 0);
 	car.setBrand ("BMW");
@@ -149,5 +150,13 @@ int main()
 	cout << "Brand: " << car.getBrand () << endl;
 	cout << "Model: " << car.getModel () << endl;
 	cout << "Year: " << car.getYear () << endl;
-	cout << "Max Speed: " << car.getMaxSpeed () << endl;
+	cout << "Max Speed: " << car.getMaxSpeed () << endl;*/
+
+	Programmer programmer (0, 0);
+	programmer.setSalary (50000);
+	programmer.setBonus (15000);
+
+	cout << "Programmer properties: " << endl;
+	cout << "Salary: " << programmer.getSalary () << endl;
+	cout << "Bonus: " << programmer.getBonus () << endl;
 }
