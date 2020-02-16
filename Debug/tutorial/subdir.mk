@@ -9,6 +9,7 @@ CPP_SRCS += \
 ../tutorial/hello-world.cpp \
 ../tutorial/operators-arithmetic.cpp \
 ../tutorial/operators-comparison.cpp \
+../tutorial/operators-logical.cpp \
 ../tutorial/output.cpp \
 ../tutorial/user-input.cpp \
 ../tutorial/variables.cpp 
@@ -19,6 +20,7 @@ OBJS += \
 ./tutorial/hello-world.o \
 ./tutorial/operators-arithmetic.o \
 ./tutorial/operators-comparison.o \
+./tutorial/operators-logical.o \
 ./tutorial/output.o \
 ./tutorial/user-input.o \
 ./tutorial/variables.o 
@@ -29,6 +31,7 @@ CPP_DEPS += \
 ./tutorial/hello-world.d \
 ./tutorial/operators-arithmetic.d \
 ./tutorial/operators-comparison.d \
+./tutorial/operators-logical.d \
 ./tutorial/output.d \
 ./tutorial/user-input.d \
 ./tutorial/variables.d 
