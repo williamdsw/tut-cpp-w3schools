@@ -25,6 +25,7 @@
 #include "functions/example-function.h"
 #include "functions/example-parameters.h"
 #include "functions/example-overloading.h"
+#include "classes/car.h"
 
 using namespace std;
 
@@ -127,7 +128,7 @@ int main()
 	exampleParameters.swap (a, b);
 
 	cout << "Numbers after swap: " << endl;
-	cout << a << ", " << b << endl;*/
+	cout << a << ", " << b << endl;
 
 	ExampleOverloading exampleOverloading;
 	int integerSum = exampleOverloading.sum (10, 15);
@@ -136,5 +137,15 @@ int main()
 
 	cout << "10 + 15 = " << integerSum << endl;
 	cout << "2.5 + 10.99 = " << floatSum << endl;
-	cout << "99.1 + 120.45 = " << doubleSum << endl;
+	cout << "99.1 + 120.45 = " << doubleSum << endl;*/
+
+	Car car;
+	car.brand = "BMW";
+	car.model = "X5";
+	car.year = 1999;
+
+	cout << "Car properties: " << endl;
+	cout << "Brand: " << car.brand << endl;
+	cout << "Model: " << car.model << endl;
+	cout << "Year: " << car.year << endl;
 }

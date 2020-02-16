@@ -11,6 +11,7 @@ RM := rm -rf
 -include tutorial/subdir.mk
 -include strings/subdir.mk
 -include functions/subdir.mk
+-include classes/subdir.mk
 -include subdir.mk
 -include objects.mk
 
