@@ -17,6 +17,8 @@
 #include "tutorial/switch.h"
 #include "tutorial/while.h"
 #include "tutorial/do-while.h"
+#include "tutorial/for.h"
+#include "tutorial/foreach.h"
 
 using namespace std;
 
@@ -68,11 +70,17 @@ int main()
 	ifElse.makeIfElse ();
 
 	Switch switchObj;
-	switchObj.makeSwitch ();*/
+	switchObj.makeSwitch ();
 
 	While whileObj;
 	whileObj.makeWhile ();
 
 	DoWhile doWhile;
-	doWhile.makeDoWhile ();
+	doWhile.makeDoWhile ();*/
+
+	For forObj;
+	forObj.makeFor ();
+
+	Foreach foreachObj;
+	foreachObj.makeForeach ();
 }

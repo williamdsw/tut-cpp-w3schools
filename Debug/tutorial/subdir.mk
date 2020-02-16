@@ -8,6 +8,8 @@ CPP_SRCS += \
 ../tutorial/constants.cpp \
 ../tutorial/do-while.cpp \
 ../tutorial/example-math.cpp \
+../tutorial/for.cpp \
+../tutorial/foreach.cpp \
 ../tutorial/hello-world.cpp \
 ../tutorial/if-else.cpp \
 ../tutorial/operators-arithmetic.cpp \
@@ -24,6 +26,8 @@ OBJS += \
 ./tutorial/constants.o \
 ./tutorial/do-while.o \
 ./tutorial/example-math.o \
+./tutorial/for.o \
+./tutorial/foreach.o \
 ./tutorial/hello-world.o \
 ./tutorial/if-else.o \
 ./tutorial/operators-arithmetic.o \
@@ -40,6 +44,8 @@ CPP_DEPS += \
 ./tutorial/constants.d \
 ./tutorial/do-while.d \
 ./tutorial/example-math.d \
+./tutorial/for.d \
+./tutorial/foreach.d \
 ./tutorial/hello-world.d \
 ./tutorial/if-else.d \
 ./tutorial/operators-arithmetic.d \
