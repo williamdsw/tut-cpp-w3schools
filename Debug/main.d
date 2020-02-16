@@ -5,7 +5,8 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
  ../strings/concatenation.h ../strings/length.h ../strings/access.h \
  ../strings/struserinput.h ../tutorial/example-math.h \
  ../tutorial/if-else.h ../tutorial/switch.h ../tutorial/while.h \
- ../tutorial/do-while.h ../tutorial/for.h ../tutorial/foreach.h
+ ../tutorial/do-while.h ../tutorial/for.h ../tutorial/foreach.h \
+ ../tutorial/arrays.h
 
 ../tutorial/hello-world.h:
 
@@ -46,3 +47,5 @@ main.o: ../main.cpp ../tutorial/hello-world.h ../tutorial/output.h \
 ../tutorial/for.h:
 
 ../tutorial/foreach.h:
+
+../tutorial/arrays.h:

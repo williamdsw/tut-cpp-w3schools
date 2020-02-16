@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../tutorial/arrays.cpp \
 ../tutorial/comments.cpp \
 ../tutorial/constants.cpp \
 ../tutorial/do-while.cpp \
@@ -22,6 +23,7 @@ CPP_SRCS += \
 ../tutorial/while.cpp 
 
 OBJS += \
+./tutorial/arrays.o \
 ./tutorial/comments.o \
 ./tutorial/constants.o \
 ./tutorial/do-while.o \
@@ -40,6 +42,7 @@ OBJS += \
 ./tutorial/while.o 
 
 CPP_DEPS += \
+./tutorial/arrays.d \
 ./tutorial/comments.d \
 ./tutorial/constants.d \
 ./tutorial/do-while.d \

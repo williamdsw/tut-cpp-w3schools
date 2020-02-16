@@ -19,6 +19,7 @@
 #include "tutorial/do-while.h"
 #include "tutorial/for.h"
 #include "tutorial/foreach.h"
+#include "tutorial/arrays.h"
 
 using namespace std;
 
@@ -76,11 +77,14 @@ int main()
 	whileObj.makeWhile ();
 
 	DoWhile doWhile;
-	doWhile.makeDoWhile ();*/
+	doWhile.makeDoWhile ();
 
 	For forObj;
 	forObj.makeFor ();
 
 	Foreach foreachObj;
-	foreachObj.makeForeach ();
+	foreachObj.makeForeach ();*/
+
+	Arrays arrays;
+	arrays.makeArrays ();
 }
